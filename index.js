@@ -1,5 +1,5 @@
 function justInvoke(fn) {
-  return this.value
+  return thisValue = this.value
 }
 
 // bob = {name: 'bob'}
