@@ -7,7 +7,7 @@ function setThisWithCall(fn, thisValue, arg) {
 }
 
 function setThisWithApply(fn, thisValue, args){
-  console.log(fn.apply(thisValue, args))
+  return fn.apply(thisValue, args)
 }
  //bob = {name: 'bob'}
 // age = 18
