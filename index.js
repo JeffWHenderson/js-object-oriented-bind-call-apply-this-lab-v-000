@@ -1,3 +1,3 @@
-function juseInvoke(fn) {
-  
+function justInvoke(fn) {
+
 }
