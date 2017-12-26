@@ -1,3 +1,6 @@
 function justInvoke(fn) {
-  return thisValue
+  return this.value
 }
+
+// bob = {name: 'bob'}
+// age = 18
